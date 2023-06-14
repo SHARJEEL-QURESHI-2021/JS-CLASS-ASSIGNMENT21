@@ -1,0 +1,142 @@
+body{
+    margin-top: 10vh;
+    margin-left: 40vh;
+    background-color: rgb(185, 185, 185);
+}
+#main{
+    width: 800px;
+    height: 504px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.849);
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    letter-spacing: 2px;
+}
+#table{
+    border: 2px solid rgb(0, 0, 0);
+}
+.td{
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+}
+#month:hover{
+    color: rgb(0, 0, 0);
+}
+#day:hover{
+    color: rgb(0, 0, 0);
+}
+#year:hover{
+    color: rgb(0, 0, 0);
+}
+#month{
+    color: rgb(255, 255, 255);
+    height: 90px;
+    width: 393px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+#day{
+    color: rgb(255, 255, 255);
+    height: 90px;
+    width: 393px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+#year{
+    color: rgb(255, 255, 255);
+    height: 28px;
+    width: 800px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+#style{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+@media screen and (max-width: 500px) {
+    #main{
+        width: 350px;
+        height: 430px;
+    }
+    #td{
+        width: 30px;
+        height: 15px;
+    }
+    #day{
+        width: 100px;
+        height: 20px;
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    #month{
+        width: 100px;
+        height: 20px;
+        font-size: 24px;
+    }
+    #year{
+        width: 200px;
+        font-size: 24px;
+    }
+    #style{
+        padding-left: 50px;
+    }
+    body{
+        margin: 0px;
+        background-color: rgb(185, 185, 185);
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #main{
+        width: 350px;
+        height: 430px;
+    }
+    #td{
+        width: 15px;
+        height: 7px;
+    }
+    #day{
+        width: 50px;
+        height: 10px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    #month{
+        width: 50px;
+        height: 10px;
+        font-size: 18px;
+    }
+    #year{
+        width: 50px;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    #style{
+        padding-left: 100px;
+    }
+    body{
+        margin: 0px;
+        background-color: rrgb(185, 185, 185);
+        margin-left: 2px;
+    }
+}
